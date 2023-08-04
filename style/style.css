@@ -1,0 +1,242 @@
+*body{
+    font-family: arial;
+    color:  #747474;
+}
+.header img{
+    width: 268px;
+    height: 33px;
+    margin-left: 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: fixed;
+    padding: 2rem 0;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1000;
+    align-items: center;
+    padding-right: 300px;
+    height: 0;
+
+}
+.header .navlinks ul{
+    display: flex;
+    
+}
+.navlinks li{
+    list-style: none;
+    padding: 0 20px;
+    font-weight: 400px;
+    font-size: 16px;
+    gap: 1.5 rem;
+}
+.navlinks li a{
+    color: #747474;
+    text-decoration: none;
+}
+.navlinks .active{
+    color: #00b39b;
+}
+.header a ul{
+    position: fixed;
+    text-decoration: none;
+}
+.docplanner-header{
+    display: flex;
+}
+.introduction{
+    padding-top: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.introduction-logo{
+    width: 50px;
+    height: 50px;
+}
+.introduction-title{
+    color: #00b39b;
+    font-weight: 50;
+}
+.introduction-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.services{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.service1{
+    width: 300px;
+    height: 300px;
+    background-color: #00b39b;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.service2{
+    width: 300px;
+    height: 300px;
+    background-color: #3d83df;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.select1{
+    border: none;
+    background-color: #00b39b;
+    color: white;
+}
+.select2{
+    border: none;
+    background-color:#3d83df;
+    color: white;
+}
+.service3{
+    width: 300px;
+    height: 300px;
+    background-color: #000914;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 10px;
+}
+.select3,
+.select4{
+    border: none;
+    background-color: #000914;
+    color: white;
+}
+.liens{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: stretch;
+}
+.lien1{
+    width: 300px;
+    height: 50px;
+    color: #00b39b;
+    margin-left: -350px;
+    font-size: 250%;
+}
+.lien2 ul img,
+.lien3 ul img{
+width: 30px;
+height: 30px;
+}
+.lien2 li,
+.lien3 li{
+    list-style: none;
+}
+.grid{
+    background-color:  #cbf8f2;
+    margin-top: 70px;
+}
+h4{
+    color: #00b39b;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: 50;
+}
+.col-6 p{
+    text-align: center;
+    margin-left: 100px;
+}
+.logo1 img{
+    width: 400px;
+    height: 300px;
+}
+h5{
+    color: #00b39b;
+    text-align: center;
+    font-weight: 50;
+}
+.country{
+    width: 230px;
+    height: 240px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    text-align: center;
+}
+.patients{
+    width: 230px;
+    height: 220px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+}
+.appointment,
+.doctor{
+    width: 230px;
+    height: 240px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.country img,
+.patients img,
+.appointment img,
+.doctor img{
+    margin-top: 20px;
+}
+.text h5{
+text-align: center;
+font-size: 40px;
+font-weight: 50;
+}
+.text{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+.section6 .container .row div {
+    width: 21rem;
+    margin: 20px;
+
+}
+.section6 .container .row div div .card-body{
+    display: flex;
+    justify-content: space-between;
+}
+.section6 .container .row div div .card-body a{
+    margin-right: 10px;
+}
+.join p{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 20;
+}
+.button{
+    text-align: center;
+}
+.contact p{
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 190px;
+    margin-top: 50px;
+    font-size: 15px;
+    color: #747474;
+    font-weight: 50;
+}
+.leaders{
+    color: #3d83df;
+    text-decoration: none;
+}
